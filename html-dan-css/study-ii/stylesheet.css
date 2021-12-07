@@ -20,7 +20,6 @@ a {
   color: white;
 }
 
-/* Tambahkan CSS untuk tag <h1> didalam class top-wrapper */
 .top-wrapper h1 {
   opacity: 0.7;
   font-size: 45px;
@@ -28,9 +27,46 @@ a {
   margin-bottom: 10px;
 }
 
-
-/* Tambahkan CSS untuk tag <p> didalam class top-wrapper */
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
+}
+
+/* Tambahkan CSS untuk btn */
+.btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+/* Tambahkan CSS untuk signup */
+.signup {
+  background-color: #239b76;
+}
+
+/* Tambahkan CSS untuk facebook */
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+/* Tambahkan CSS untuk twitter */
+.twitter {
+  background-color: #55acee;
+}
+
+/* Tambahkan CSS untuk btn-wrapper */
+.btn-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Tambahkan CSS untuk tag <p> didalam class btn-wrapper */
+.btn-wrapper p {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
