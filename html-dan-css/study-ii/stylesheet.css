@@ -102,21 +102,25 @@ header {
   display: block;
 }
 
-/* Tambahkan CSS untuk lesson-wrapper */
 .lesson-wrapper {
   height: 500px;
   padding-bottom: 80px;
   background-color: #f7f7f7;
 }
 
-/* Tambahkan CSS untuk heading */
 .heading {
   padding-top: 60px;
   padding-bottom: 30px;
   color: #5f5d60;
 }
 
-/* Tambahkan CSS untuk tag <h2> didalam heading */
 .heading h2 {
   font-weight: normal;
 }
+
+/* Tambahkan CSS untuk lesson */
+.lesson{
+  float: left;
+  width: 25%;
+}
+
