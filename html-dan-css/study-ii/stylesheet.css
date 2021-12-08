@@ -88,7 +88,6 @@ header {
 .header-right {
   float: right;
   background-color: rgba(255, 255, 255, 0.3);
-  /* Ubah property transition */
   transition: all 0.5s;
 }
 
@@ -96,11 +95,28 @@ header {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* Tambahkan CSS untuk tag <a> didalam header-right */
 .header-right a {
   line-height: 65px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 0 25px;
   color: white;
   display: block;
+}
+
+/* Tambahkan CSS untuk lesson-wrapper */
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
+/* Tambahkan CSS untuk heading */
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+/* Tambahkan CSS untuk tag <h2> didalam heading */
+.heading h2 {
+  font-weight: normal;
 }
