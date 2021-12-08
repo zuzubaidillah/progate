@@ -81,18 +81,26 @@ header {
   margin-top: 20px;
 }
 
-/* Tambahkan CSS untuk header-left */
 .header-left {
   float: left;
 }
 
-/* Tambahkan CSS untuk header-right */
 .header-right {
   float: right;
   background-color: rgba(255, 255, 255, 0.3);
+  /* Ubah property transition */
+  transition: all 0.5s;
 }
 
-/* Tambahkan CSS untuk header-right pada saat ditunjuk kursor */
 .header-right:hover {
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Tambahkan CSS untuk tag <a> didalam header-right */
+.header-right a {
+  line-height: 65px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  display: block;
 }
